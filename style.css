@@ -1,0 +1,118 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #0f141cda;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  h1 {
+    font-size: 3.rem;
+    text-align: center;
+    color: white;
+    
+  }
+
+  .main{
+    text-align: center;
+  }
+  
+
+  h3{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  
+  }
+
+h3.blink span {
+    color: rgb(255, 225, 52);
+    overflow: hidden; 
+    white-space: nowrap; 
+    display: inline-block;
+    width: 0; 
+  }
+  
+  
+  @keyframes typingAnimation {
+    100% { width: auto; }
+  }
+  
+  h3.blink span {
+    animation: typingAnimation 2s steps(40) infinite;
+  }
+  
+  h3.blink span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  h3.blink span:nth-child(2) {
+    animation-delay: 2s; 
+  }
+  
+  h3.blink span:nth-child(3) {
+    animation-delay: 4s; 
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .division {
+    
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #ffffcc; 
+    border-radius: 10px;
+   
+  }
+  
+  .division h2 {
+    color: #333;
+  }
+  
+  .division p {
+    color: #666;
+  }
+  
+ 
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./assets/images/earth-sunrise-3840x2160-12523.jpg');
+    background-size: cover;
+    background-position: center top 2px;
+}
+
+
+.container .division.about p.contact{
+  font-weight: bold;
+  color: red;
+  
+}
+
+footer
+{
+  font-size: 12px;
+
+  color: rgb(0, 195, 255);
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
